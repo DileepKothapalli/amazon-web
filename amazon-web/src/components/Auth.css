@@ -1,0 +1,68 @@
+.Auth {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.authform > form {
+  margin-top: 100px;
+
+  text-align: left;
+  display: inline-block;
+  width: 350px;
+  border: 1px solid #121212;
+  border-radius: 5px;
+}
+.AuthForm {
+  padding: 10px;
+}
+.authform > form > h1 {
+  margin: 10px 0px 10px 20px;
+}
+
+.authform > form > h3 {
+  padding: 0px 1px 0px 20px;
+}
+
+.authform > form > input {
+  width: 80%;
+  height: 30px;
+  /* padding: 5px 0px 5px 0px; */
+  margin: 0px 0px 10px 20px;
+  border: 1px solid #666666;
+  outline-color: #f1c760;
+  border-radius: 4px;
+  box-shadow: onset 0 0 5px 5px #888;
+  background: #fff;
+}
+.authform > form > input:focus {
+  color: #000000;
+  border: 1px solid #f1c760;
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01),
+    0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.continue > button {
+  background-color: #f1c760;
+  border: 0px;
+  width: 80%;
+  margin: 20px 10px 30px 20px;
+  padding: 5px 0px 5px 0px;
+  border-radius: 5px;
+}
+.authform > form > p {
+  margin: 15px 10px 10px 20px;
+}
+.authform > form > p > .link {
+  text-decoration: none;
+  color: #0066c0;
+}
+.authform > form > p > .link:hover {
+  text-decoration: underline;
+  color: #ecbf5b;
+}
+.sendtext {
+  margin: 15px 10px 10px 20px;
+  font-size: 15px;
+  color: black;
+}

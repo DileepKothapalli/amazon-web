@@ -12,14 +12,64 @@
 .left__navbar {
   color: white;
   display: flex;
-  /* background-color: black; */
+  margin-left: 10px;
 }
+.location {
+  padding-left: 10px;
+  padding-top: 4px;
+}
+
+.image {
+  width: 100px;
+  padding-top: 10px;
+}
+
+.delivery {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
 .search__bar {
   flex: 1;
-  color: yellow;
-  /* background-color: black; */
 }
-.left__navbar {
+.search__bar > form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+.search__bar > form > input {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+}
+.search__bar > form > input:focus {
+  outline: 4px solid #ecbf5b;
+  border: none;
+}
+.search__bar > form > button {
+  background-color: #ecbf5b;
+  height: 35px;
+  margin-top: 10px;
+  padding: 0px 0px 0px 0px;
+  border: none;
+}
+.search__bar > form > button:focus {
+  border: none;
+}
+
+.right__navbar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
   color: white;
-  /* background-color: black; */
+}
+
+.right__navbar button {
+  font-size: 20px;
+  color: white;
+  background-color: #131921;
+  border: 0;
+  padding: 12px;
 }

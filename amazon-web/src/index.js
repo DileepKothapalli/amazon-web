@@ -4,12 +4,19 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Navbar from "./components/Navbar";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Auth from "./components/Auth";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-    <Navbar />
-  </React.StrictMode>,
+    <Switch>
+      <Route exact path="/" component={Auth}>
+        <Navbar />
+      </Route>
+      <Route exact path="/Auth" component={Auth}></Route>
+    </Switch>
+  </BrowserRouter>,
   document.getElementById("root")
 );
 
